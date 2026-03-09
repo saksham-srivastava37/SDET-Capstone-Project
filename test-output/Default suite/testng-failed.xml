@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="test.FlightBookingAutomation">
+        <methods>
+          <include name="verifyPage"/>
+          <include name="chooseFlight"/>
+          <include name="init"/>
+          <include name="destCity"/>
+          <include name="navigate"/>
+          <include name="paymentDetails"/>
+          <include name="teardown"/>
+          <include name="purchaseFlight"/>
+          <include name="verifyBooking"/>
+          <include name="dispFlights"/>
+          <include name="depCity"/>
+          <include name="findFlights"/>
+          <include name="personalDetails"/>
+        </methods>
+      </class> <!-- test.FlightBookingAutomation -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

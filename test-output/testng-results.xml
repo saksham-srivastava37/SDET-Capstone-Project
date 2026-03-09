@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-09T15:36:50 IST" name="FlightBookingSuite" finished-at="2026-03-09T15:37:26 IST" duration-ms="35369">
+    <groups>
+    </groups>
+    <test started-at="2026-03-09T15:36:50 IST" name="FlightBookingTest" finished-at="2026-03-09T15:37:26 IST" duration-ms="35369">
+      <class name="test.FlightBookingAutomation">
+        <test-method is-config="true" signature="init()[pri:0, instance:test.FlightBookingAutomation@22ff4249]" started-at="2026-03-09T15:36:50 IST" name="init" finished-at="2026-03-09T15:36:54 IST" duration-ms="3798" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="navigate()[pri:0, instance:test.FlightBookingAutomation@22ff4249]" started-at="2026-03-09T15:36:54 IST" name="navigate" finished-at="2026-03-09T15:36:58 IST" duration-ms="4329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method signature="depCity()[pri:0, instance:test.FlightBookingAutomation@22ff4249]" started-at="2026-03-09T15:36:58 IST" name="depCity" finished-at="2026-03-09T15:37:01 IST" depends-on-methods="test.FlightBookingAutomation.navigate" duration-ms="2393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- depCity -->
+        <test-method signature="destCity()[pri:0, instance:test.FlightBookingAutomation@22ff4249]" started-at="2026-03-09T15:37:01 IST" name="destCity" finished-at="2026-03-09T15:37:03 IST" depends-on-methods="test.FlightBookingAutomation.depCity" duration-ms="2280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destCity -->
+        <test-method signature="findFlights()[pri:0, instance:test.FlightBookingAutomation@22ff4249]" started-at="2026-03-09T15:37:03 IST" name="findFlights" finished-at="2026-03-09T15:37:03 IST" depends-on-methods="test.FlightBookingAutomation.destCity" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findFlights -->
+        <test-method signature="dispFlights()[pri:0, instance:test.FlightBookingAutomation@22ff4249]" started-at="2026-03-09T15:37:03 IST" name="dispFlights" finished-at="2026-03-09T15:37:06 IST" depends-on-methods="test.FlightBookingAutomation.findFlights" duration-ms="2509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dispFlights -->
+        <test-method signature="chooseFlight()[pri:0, instance:test.FlightBookingAutomation@22ff4249]" started-at="2026-03-09T15:37:06 IST" name="chooseFlight" finished-at="2026-03-09T15:37:07 IST" depends-on-methods="test.FlightBookingAutomation.dispFlights" duration-ms="739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chooseFlight -->
+        <test-method signature="verifyPage()[pri:0, instance:test.FlightBookingAutomation@22ff4249]" started-at="2026-03-09T15:37:07 IST" name="verifyPage" finished-at="2026-03-09T15:37:09 IST" depends-on-methods="test.FlightBookingAutomation.chooseFlight" duration-ms="2172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPage -->
+        <test-method signature="personalDetails()[pri:0, instance:test.FlightBookingAutomation@22ff4249]" started-at="2026-03-09T15:37:09 IST" name="personalDetails" finished-at="2026-03-09T15:37:14 IST" depends-on-methods="test.FlightBookingAutomation.verifyPage" duration-ms="5156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- personalDetails -->
+        <test-method signature="paymentDetails()[pri:0, instance:test.FlightBookingAutomation@22ff4249]" started-at="2026-03-09T15:37:14 IST" name="paymentDetails" finished-at="2026-03-09T15:37:21 IST" depends-on-methods="test.FlightBookingAutomation.personalDetails" duration-ms="7441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentDetails -->
+        <test-method signature="purchaseFlight()[pri:0, instance:test.FlightBookingAutomation@22ff4249]" started-at="2026-03-09T15:37:21 IST" name="purchaseFlight" finished-at="2026-03-09T15:37:22 IST" depends-on-methods="test.FlightBookingAutomation.paymentDetails" duration-ms="586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseFlight -->
+        <test-method signature="verifyBooking()[pri:0, instance:test.FlightBookingAutomation@22ff4249]" started-at="2026-03-09T15:37:22 IST" name="verifyBooking" finished-at="2026-03-09T15:37:25 IST" depends-on-methods="test.FlightBookingAutomation.purchaseFlight" duration-ms="3121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBooking -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:test.FlightBookingAutomation@22ff4249]" started-at="2026-03-09T15:37:25 IST" name="teardown" finished-at="2026-03-09T15:37:26 IST" duration-ms="485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- test.FlightBookingAutomation -->
+    </test> <!-- FlightBookingTest -->
+  </suite> <!-- FlightBookingSuite -->
+</testng-results>

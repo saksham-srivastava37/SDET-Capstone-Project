@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="FlightBookingSuite">
+
+    <test name="FlightBookingTest">
+
+        <classes>
+            <class name="test.FlightBookingAutomation"/>
+        </classes>
+
+    </test>
+
+</suite>
